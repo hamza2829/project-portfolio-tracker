@@ -1,0 +1,13 @@
+Action key,Project key,Summary,Owner,Due date,Status,Source
+A01,P01,Agree the next acceptance decision,m01,2026-09-18,Open,synthetic planning export
+A02,P02,Agree the next acceptance decision,m02,2026-09-20,Open,synthetic planning export
+A03,P03,Agree the next acceptance decision,m03,2026-09-22,Open,synthetic planning export
+A04,P04,Agree the next acceptance decision,m04,2026-09-24,Open,synthetic planning export
+A05,P05,Agree the next acceptance decision,m05,2026-09-26,Open,synthetic planning export
+A06,P06,Agree the next acceptance decision,m06,2026-09-28,Open,synthetic planning export
+A07,P07,Agree the next acceptance decision,m07,2026-09-30,Open,synthetic planning export
+A08,P08,Agree the next acceptance decision,m08,2026-10-02,Open,synthetic planning export
+A09,P09,Agree the next acceptance decision,m01,2026-10-04,Open,synthetic planning export
+A10,P10,Agree the next acceptance decision,m02,2026-10-06,Open,synthetic planning export
+A11,P11,Agree the next acceptance decision,m03,2026-10-08,Done,synthetic planning export
+A12,P12,Agree the next acceptance decision,m04,2026-10-10,Open,synthetic planning export

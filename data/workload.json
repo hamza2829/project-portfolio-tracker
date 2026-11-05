@@ -1,0 +1,920 @@
+[
+  {
+    "Issue key": "P01-1",
+    "Assignee": "m01",
+    "Week": "2026-07-06",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P01-2",
+    "Assignee": "m02",
+    "Week": "2026-07-06",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P01-3",
+    "Assignee": "m03",
+    "Week": "2026-07-13",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P01-4",
+    "Assignee": "m04",
+    "Week": "2026-07-20",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P01-5",
+    "Assignee": "m05",
+    "Week": "2026-07-20",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P01-6",
+    "Assignee": "m06",
+    "Week": "2026-07-27",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P01-7",
+    "Assignee": "m07",
+    "Week": "2026-08-03",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P01-8",
+    "Assignee": "m08",
+    "Week": "2026-08-10",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P01-9",
+    "Assignee": "m01",
+    "Week": "2026-08-10",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P01-10",
+    "Assignee": "m02",
+    "Week": "2026-08-17",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P01-11",
+    "Assignee": "m03",
+    "Week": "2026-08-24",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P01-12",
+    "Assignee": "m04",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P01-13",
+    "Assignee": "m05",
+    "Week": "2026-08-31",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P02-1",
+    "Assignee": "m02",
+    "Week": "2026-07-06",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P02-2",
+    "Assignee": "m03",
+    "Week": "2026-07-13",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P02-3",
+    "Assignee": "m04",
+    "Week": "2026-07-13",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P02-4",
+    "Assignee": "m05",
+    "Week": "2026-07-20",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P02-5",
+    "Assignee": "m06",
+    "Week": "2026-07-27",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P02-6",
+    "Assignee": "m07",
+    "Week": "2026-07-27",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P02-7",
+    "Assignee": "m08",
+    "Week": "2026-08-03",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P02-8",
+    "Assignee": "m01",
+    "Week": "2026-08-10",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P02-9",
+    "Assignee": "m02",
+    "Week": "2026-08-17",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P02-10",
+    "Assignee": "m03",
+    "Week": "2026-08-17",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P02-11",
+    "Assignee": "m04",
+    "Week": "2026-08-24",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P02-12",
+    "Assignee": "m05",
+    "Week": "2026-08-31",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P02-13",
+    "Assignee": "m06",
+    "Week": "2026-08-31",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P03-1",
+    "Assignee": "m03",
+    "Week": "2026-07-06",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P03-2",
+    "Assignee": "m04",
+    "Week": "2026-07-13",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P03-3",
+    "Assignee": "m05",
+    "Week": "2026-07-20",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P03-4",
+    "Assignee": "m06",
+    "Week": "2026-07-20",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P03-5",
+    "Assignee": "m07",
+    "Week": "2026-07-27",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P03-6",
+    "Assignee": "m08",
+    "Week": "2026-08-03",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P03-7",
+    "Assignee": "m01",
+    "Week": "2026-08-03",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P03-8",
+    "Assignee": "m02",
+    "Week": "2026-08-10",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P03-9",
+    "Assignee": "m03",
+    "Week": "2026-08-17",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P03-10",
+    "Assignee": "m04",
+    "Week": "2026-08-24",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P03-11",
+    "Assignee": "m05",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P03-12",
+    "Assignee": "m06",
+    "Week": "2026-08-31",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P03-13",
+    "Assignee": "m07",
+    "Week": "2026-09-07",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P04-1",
+    "Assignee": "m04",
+    "Week": "2026-07-06",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P04-2",
+    "Assignee": "m05",
+    "Week": "2026-07-13",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P04-3",
+    "Assignee": "m06",
+    "Week": "2026-07-20",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P04-4",
+    "Assignee": "m07",
+    "Week": "2026-07-27",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P04-5",
+    "Assignee": "m08",
+    "Week": "2026-07-27",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P04-6",
+    "Assignee": "m01",
+    "Week": "2026-08-03",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P04-7",
+    "Assignee": "m02",
+    "Week": "2026-08-10",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P04-8",
+    "Assignee": "m03",
+    "Week": "2026-08-10",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P04-9",
+    "Assignee": "m04",
+    "Week": "2026-08-17",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P04-10",
+    "Assignee": "m05",
+    "Week": "2026-08-24",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P04-11",
+    "Assignee": "m06",
+    "Week": "2026-08-31",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P04-12",
+    "Assignee": "m07",
+    "Week": "2026-08-31",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P04-13",
+    "Assignee": "m08",
+    "Week": "2026-09-07",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P05-1",
+    "Assignee": "m05",
+    "Week": "2026-07-13",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P05-2",
+    "Assignee": "m06",
+    "Week": "2026-07-13",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P05-3",
+    "Assignee": "m07",
+    "Week": "2026-07-20",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P05-4",
+    "Assignee": "m08",
+    "Week": "2026-07-27",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P05-5",
+    "Assignee": "m01",
+    "Week": "2026-08-03",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P05-6",
+    "Assignee": "m02",
+    "Week": "2026-08-03",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P05-7",
+    "Assignee": "m03",
+    "Week": "2026-08-10",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P05-8",
+    "Assignee": "m04",
+    "Week": "2026-08-17",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P05-9",
+    "Assignee": "m05",
+    "Week": "2026-08-17",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P05-10",
+    "Assignee": "m06",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P05-11",
+    "Assignee": "m07",
+    "Week": "2026-08-31",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P05-12",
+    "Assignee": "m08",
+    "Week": "2026-09-07",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P05-13",
+    "Assignee": "m01",
+    "Week": "2026-09-07",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P06-1",
+    "Assignee": "m06",
+    "Week": "2026-07-13",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P06-2",
+    "Assignee": "m07",
+    "Week": "2026-07-20",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P06-3",
+    "Assignee": "m08",
+    "Week": "2026-07-20",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P06-4",
+    "Assignee": "m01",
+    "Week": "2026-07-27",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P06-5",
+    "Assignee": "m02",
+    "Week": "2026-08-03",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P06-6",
+    "Assignee": "m03",
+    "Week": "2026-08-10",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P06-7",
+    "Assignee": "m04",
+    "Week": "2026-08-10",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P06-8",
+    "Assignee": "m05",
+    "Week": "2026-08-17",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P06-9",
+    "Assignee": "m06",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P06-10",
+    "Assignee": "m07",
+    "Week": "2026-08-24",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P06-11",
+    "Assignee": "m08",
+    "Week": "2026-08-31",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P06-12",
+    "Assignee": "m01",
+    "Week": "2026-09-07",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P06-13",
+    "Assignee": "m02",
+    "Week": "2026-09-14",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P07-1",
+    "Assignee": "m07",
+    "Week": "2026-07-13",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P07-2",
+    "Assignee": "m08",
+    "Week": "2026-07-20",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P07-3",
+    "Assignee": "m01",
+    "Week": "2026-07-27",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P07-4",
+    "Assignee": "m02",
+    "Week": "2026-07-27",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P07-5",
+    "Assignee": "m03",
+    "Week": "2026-08-03",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P07-6",
+    "Assignee": "m04",
+    "Week": "2026-08-10",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P07-7",
+    "Assignee": "m05",
+    "Week": "2026-08-17",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P07-8",
+    "Assignee": "m06",
+    "Week": "2026-08-17",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P07-9",
+    "Assignee": "m07",
+    "Week": "2026-08-24",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P07-10",
+    "Assignee": "m08",
+    "Week": "2026-08-31",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P07-11",
+    "Assignee": "m01",
+    "Week": "2026-08-31",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P07-12",
+    "Assignee": "m02",
+    "Week": "2026-09-07",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P08-1",
+    "Assignee": "m08",
+    "Week": "2026-07-20",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P08-2",
+    "Assignee": "m01",
+    "Week": "2026-07-20",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P08-3",
+    "Assignee": "m02",
+    "Week": "2026-07-27",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P08-4",
+    "Assignee": "m03",
+    "Week": "2026-08-03",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P08-5",
+    "Assignee": "m04",
+    "Week": "2026-08-03",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P08-6",
+    "Assignee": "m05",
+    "Week": "2026-08-10",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P08-7",
+    "Assignee": "m06",
+    "Week": "2026-08-17",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P08-8",
+    "Assignee": "m07",
+    "Week": "2026-08-24",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P08-9",
+    "Assignee": "m08",
+    "Week": "2026-08-24",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P08-10",
+    "Assignee": "m01",
+    "Week": "2026-08-31",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P08-11",
+    "Assignee": "m02",
+    "Week": "2026-09-07",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P08-12",
+    "Assignee": "m03",
+    "Week": "2026-09-07",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P09-1",
+    "Assignee": "m01",
+    "Week": "2026-07-20",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P09-2",
+    "Assignee": "m02",
+    "Week": "2026-07-27",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P09-3",
+    "Assignee": "m03",
+    "Week": "2026-07-27",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P09-4",
+    "Assignee": "m04",
+    "Week": "2026-08-03",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P09-5",
+    "Assignee": "m05",
+    "Week": "2026-08-10",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P09-6",
+    "Assignee": "m06",
+    "Week": "2026-08-10",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P09-7",
+    "Assignee": "m07",
+    "Week": "2026-08-17",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P09-8",
+    "Assignee": "m08",
+    "Week": "2026-08-24",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P09-9",
+    "Assignee": "m01",
+    "Week": "2026-08-31",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P09-10",
+    "Assignee": "m02",
+    "Week": "2026-08-31",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P09-11",
+    "Assignee": "m03",
+    "Week": "2026-09-07",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P09-12",
+    "Assignee": "m04",
+    "Week": "2026-09-14",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P10-1",
+    "Assignee": "m02",
+    "Week": "2026-07-20",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P10-2",
+    "Assignee": "m03",
+    "Week": "2026-07-27",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P10-3",
+    "Assignee": "m04",
+    "Week": "2026-08-03",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P10-4",
+    "Assignee": "m05",
+    "Week": "2026-08-03",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P10-5",
+    "Assignee": "m06",
+    "Week": "2026-08-10",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P10-6",
+    "Assignee": "m07",
+    "Week": "2026-08-17",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P10-7",
+    "Assignee": "m08",
+    "Week": "2026-08-17",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P10-8",
+    "Assignee": "m01",
+    "Week": "2026-08-24",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P10-9",
+    "Assignee": "m02",
+    "Week": "2026-08-31",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P10-10",
+    "Assignee": "m03",
+    "Week": "2026-09-07",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P10-11",
+    "Assignee": "m04",
+    "Week": "2026-09-07",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P10-12",
+    "Assignee": "m05",
+    "Week": "2026-09-14",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P11-1",
+    "Assignee": "m03",
+    "Week": "2026-07-20",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P11-2",
+    "Assignee": "m04",
+    "Week": "2026-07-27",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P11-3",
+    "Assignee": "m05",
+    "Week": "2026-08-03",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P11-4",
+    "Assignee": "m06",
+    "Week": "2026-08-10",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P11-5",
+    "Assignee": "m07",
+    "Week": "2026-08-10",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P11-6",
+    "Assignee": "m08",
+    "Week": "2026-08-17",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P11-7",
+    "Assignee": "m01",
+    "Week": "2026-08-24",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P11-8",
+    "Assignee": "m02",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P11-9",
+    "Assignee": "m03",
+    "Week": "2026-08-31",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P11-10",
+    "Assignee": "m04",
+    "Week": "2026-09-07",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P11-11",
+    "Assignee": "m05",
+    "Week": "2026-09-14",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P11-12",
+    "Assignee": "m06",
+    "Week": "2026-09-14",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P12-1",
+    "Assignee": "m04",
+    "Week": "2026-07-27",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P12-2",
+    "Assignee": "m05",
+    "Week": "2026-07-27",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P12-3",
+    "Assignee": "m06",
+    "Week": "2026-08-03",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P12-4",
+    "Assignee": "m07",
+    "Week": "2026-08-10",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P12-5",
+    "Assignee": "m08",
+    "Week": "2026-08-17",
+    "Planned hours": "16"
+  },
+  {
+    "Issue key": "P12-6",
+    "Assignee": "m01",
+    "Week": "2026-08-17",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P12-7",
+    "Assignee": "m02",
+    "Week": "2026-08-24",
+    "Planned hours": "40"
+  },
+  {
+    "Issue key": "P12-8",
+    "Assignee": "m03",
+    "Week": "2026-08-31",
+    "Planned hours": "8"
+  },
+  {
+    "Issue key": "P12-9",
+    "Assignee": "m04",
+    "Week": "2026-08-31",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P12-10",
+    "Assignee": "m05",
+    "Week": "2026-09-07",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P12-11",
+    "Assignee": "m06",
+    "Week": "2026-09-14",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P12-12",
+    "Assignee": "m07",
+    "Week": "2026-09-21",
+    "Planned hours": "32"
+  },
+  {
+    "Issue key": "P01-12",
+    "Assignee": "m01",
+    "Week": "2026-09-21",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P02-12",
+    "Assignee": "m01",
+    "Week": "2026-09-21",
+    "Planned hours": "24"
+  },
+  {
+    "Issue key": "P03-12",
+    "Assignee": "m01",
+    "Week": "2026-09-21",
+    "Planned hours": "24"
+  }
+]

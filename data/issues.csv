@@ -1,0 +1,151 @@
+Issue key,Project key,Summary,Issue Type,Status,Assignee,Start date,Due date,Original estimate (h),Remaining estimate (h),Priority,Dependencies,Milestone
+P01-1,P01,Design synthetic component 1,Task,Done,m01,2026-07-06,2026-07-13,8,0,High,,P01-M1
+P01-2,P01,Build synthetic component 2,Task,Done,m02,2026-07-11,2026-07-14,8,0,High,P01-1,P01-M1
+P01-3,P01,Verify synthetic component 3,Task,Done,m03,2026-07-16,2026-07-23,40,0,High,P01-2,P01-M1
+P01-4,P01,Design synthetic component 4,Task,Done,m04,2026-07-21,2026-07-30,24,0,High,P01-3,P01-M1
+P01-5,P01,Build synthetic component 5,Task,In Progress,m05,2026-07-26,2026-07-29,40,20.0,High,P01-4,P01-M1
+P01-6,P01,Verify synthetic component 6,Task,In Progress,m06,2026-07-31,2026-08-07,16,8.0,High,P01-5,P01-M1
+P01-7,P01,Design synthetic component 7,Task,Blocked,m07,2026-08-05,2026-08-08,16,16,High,P01-6,P01-M2
+P01-8,P01,Build synthetic component 8,Task,In Progress,m08,2026-08-10,2026-08-17,16,8.0,High,P01-7,P01-M2
+P01-9,P01,Verify synthetic component 9,Task,In Progress,m01,2026-08-15,2026-08-18,32,16.0,High,P01-8,P01-M2
+P01-10,P01,Design synthetic component 10,Task,To Do,m02,2026-08-20,2026-08-23,32,32,High,P01-9,P01-M2
+P01-11,P01,Build synthetic component 11,Task,To Do,m03,2026-08-25,2026-08-29,24,24,High,P01-10,P01-M2
+P01-12,P01,Verify synthetic component 12,Task,To Do,m04,2026-08-30,2026-09-08,40,40,High,P01-11,P01-M2
+P01-13,P01,Design synthetic component 13,Task,To Do,m05,2026-09-04,2026-09-11,32,32,High,P01-12,P01-M2
+P02-1,P02,Design synthetic component 1,Task,Done,m02,2026-07-08,2026-07-17,32,0,Medium,P01-3,P02-M1
+P02-2,P02,Build synthetic component 2,Task,Done,m03,2026-07-13,2026-07-17,40,0,Medium,P02-1,P02-M1
+P02-3,P02,Verify synthetic component 3,Task,Done,m04,2026-07-18,2026-07-25,8,0,Medium,P02-2,P02-M1
+P02-4,P02,Design synthetic component 4,Task,Done,m05,2026-07-23,2026-08-01,16,0,Medium,P02-3,P02-M1
+P02-5,P02,Build synthetic component 5,Task,In Progress,m06,2026-07-28,2026-08-06,32,16.0,Medium,P02-4,P02-M1
+P02-6,P02,Verify synthetic component 6,Task,In Progress,m07,2026-08-02,2026-08-05,40,20.0,Medium,P02-5,P02-M1
+P02-7,P02,Design synthetic component 7,Task,Blocked,m08,2026-08-07,2026-08-14,24,24,Medium,P02-6,P02-M2
+P02-8,P02,Build synthetic component 8,Task,In Progress,m01,2026-08-12,2026-08-21,16,8.0,Medium,P02-7,P02-M2
+P02-9,P02,Verify synthetic component 9,Task,In Progress,m02,2026-08-17,2026-08-26,24,12.0,Medium,P02-8,P02-M2
+P02-10,P02,Design synthetic component 10,Task,To Do,m03,2026-08-22,2026-08-29,16,16,Medium,P02-9,P02-M2
+P02-11,P02,Build synthetic component 11,Task,To Do,m04,2026-08-27,2026-09-05,16,16,Medium,P02-10,P02-M2
+P02-12,P02,Verify synthetic component 12,Task,To Do,m05,2026-09-01,2026-09-05,24,24,Medium,P02-11,P02-M2
+P02-13,P02,Design synthetic component 13,Task,To Do,m06,2026-09-06,2026-09-10,8,8,Medium,P02-12,P02-M2
+P03-1,P03,Design synthetic component 1,Task,Done,m03,2026-07-10,2026-07-19,40,0,Low,,P03-M1
+P03-2,P03,Build synthetic component 2,Task,Done,m04,2026-07-15,2026-07-18,24,0,Low,P03-1,P03-M1
+P03-3,P03,Verify synthetic component 3,Task,Done,m05,2026-07-20,2026-07-24,16,0,Low,P03-2,P03-M1
+P03-4,P03,Design synthetic component 4,Task,Done,m06,2026-07-25,2026-08-03,8,0,Low,P03-3,P03-M1
+P03-5,P03,Build synthetic component 5,Task,In Progress,m07,2026-07-30,2026-08-06,24,12.0,Low,P03-4,P03-M1
+P03-6,P03,Verify synthetic component 6,Task,In Progress,m08,2026-08-04,2026-08-11,32,16.0,Low,P03-5,P03-M1
+P03-7,P03,Design synthetic component 7,Task,Blocked,m01,2026-08-09,2026-08-13,8,8,Low,P03-6,P03-M2
+P03-8,P03,Build synthetic component 8,Task,In Progress,m02,2026-08-14,2026-08-23,32,16.0,Low,P03-7,P03-M2
+P03-9,P03,Verify synthetic component 9,Task,In Progress,m03,2026-08-19,2026-08-26,16,8.0,Low,P03-8,P03-M2
+P03-10,P03,Design synthetic component 10,Task,To Do,m04,2026-08-24,2026-08-31,32,32,Low,P03-9,P03-M2
+P03-11,P03,Build synthetic component 11,Task,To Do,m05,2026-08-29,2026-09-07,40,40,Low,P03-10,P03-M2
+P03-12,P03,Verify synthetic component 12,Task,To Do,m06,2026-09-03,2026-09-12,32,32,Low,P03-11,P03-M2
+P03-13,P03,Design synthetic component 13,Task,To Do,m07,2026-09-08,2026-09-15,32,32,Low,P03-12,P03-M2
+P04-1,P04,Design synthetic component 1,Task,Done,m04,2026-07-12,2026-07-16,40,0,High,,P04-M1
+P04-2,P04,Build synthetic component 2,Task,Done,m05,2026-07-17,2026-07-21,40,0,High,P04-1,P04-M1
+P04-3,P04,Verify synthetic component 3,Task,Done,m06,2026-07-22,2026-07-31,8,0,High,P04-2,P04-M1
+P04-4,P04,Design synthetic component 4,Task,Done,m07,2026-07-27,2026-07-30,24,0,High,P04-3,P04-M1
+P04-5,P04,Build synthetic component 5,Task,In Progress,m08,2026-08-01,2026-08-04,16,8.0,High,P04-4,P04-M1
+P04-6,P04,Verify synthetic component 6,Task,In Progress,m01,2026-08-06,2026-08-09,16,8.0,High,P04-5,P04-M1
+P04-7,P04,Design synthetic component 7,Task,Blocked,m02,2026-08-11,2026-08-14,16,16,High,P04-6,P04-M2
+P04-8,P04,Build synthetic component 8,Task,In Progress,m03,2026-08-16,2026-08-23,16,8.0,High,P04-7,P04-M2
+P04-9,P04,Verify synthetic component 9,Task,In Progress,m04,2026-08-21,2026-08-24,8,4.0,High,P04-8,P04-M2
+P04-10,P04,Design synthetic component 10,Task,To Do,m05,2026-08-26,2026-09-04,32,32,High,P04-9,P04-M2
+P04-11,P04,Build synthetic component 11,Task,To Do,m06,2026-08-31,2026-09-07,8,8,High,P04-10,P04-M2
+P04-12,P04,Verify synthetic component 12,Task,To Do,m07,2026-09-05,2026-09-12,16,16,High,P04-11,P04-M2
+P04-13,P04,Design synthetic component 13,Task,To Do,m08,2026-09-10,2026-09-14,16,16,High,P04-12,P04-M2
+P05-1,P05,Design synthetic component 1,Task,Done,m05,2026-07-14,2026-07-21,16,0,Medium,,P05-M1
+P05-2,P05,Build synthetic component 2,Task,Done,m06,2026-07-19,2026-07-23,24,0,Medium,P05-1,P05-M1
+P05-3,P05,Verify synthetic component 3,Task,Done,m07,2026-07-24,2026-07-27,32,0,Medium,P05-2,P05-M1
+P05-4,P05,Design synthetic component 4,Task,Done,m08,2026-07-29,2026-08-02,16,0,Medium,P05-3,P05-M1
+P05-5,P05,Build synthetic component 5,Task,In Progress,m01,2026-08-03,2026-08-07,24,12.0,Medium,P05-4,P05-M1
+P05-6,P05,Verify synthetic component 6,Task,In Progress,m02,2026-08-08,2026-08-11,8,4.0,Medium,P05-5,P05-M1
+P05-7,P05,Design synthetic component 7,Task,Blocked,m03,2026-08-13,2026-08-16,32,32,Medium,P05-6,P05-M2
+P05-8,P05,Build synthetic component 8,Task,In Progress,m04,2026-08-18,2026-08-21,40,20.0,Medium,P05-7,P05-M2
+P05-9,P05,Verify synthetic component 9,Task,In Progress,m05,2026-08-23,2026-08-27,32,16.0,Medium,P05-8,P05-M2
+P05-10,P05,Design synthetic component 10,Task,To Do,m06,2026-08-28,2026-08-31,40,40,Medium,P05-9,P05-M2
+P05-11,P05,Build synthetic component 11,Task,To Do,m07,2026-09-02,2026-09-06,32,32,Medium,P05-10,P05-M2
+P05-12,P05,Verify synthetic component 12,Task,To Do,m08,2026-09-07,2026-09-10,16,16,Medium,P05-11,P05-M2
+P05-13,P05,Design synthetic component 13,Task,To Do,m01,2026-09-12,2026-09-15,40,40,Medium,P05-12,P05-M2
+P06-1,P06,Design synthetic component 1,Task,Done,m06,2026-07-16,2026-07-23,8,0,Low,,P06-M1
+P06-2,P06,Build synthetic component 2,Task,Done,m07,2026-07-21,2026-07-30,40,0,Low,P06-1,P06-M1
+P06-3,P06,Verify synthetic component 3,Task,Done,m08,2026-07-26,2026-07-29,32,0,Low,P06-2,P06-M1
+P06-4,P06,Design synthetic component 4,Task,Done,m01,2026-07-31,2026-08-04,32,0,Low,P06-3,P06-M1
+P06-5,P06,Build synthetic component 5,Task,In Progress,m02,2026-08-05,2026-08-12,40,20.0,Low,P06-4,P06-M1
+P06-6,P06,Verify synthetic component 6,Task,In Progress,m03,2026-08-10,2026-08-14,24,12.0,Low,P06-5,P06-M1
+P06-7,P06,Design synthetic component 7,Task,Blocked,m04,2026-08-15,2026-08-19,24,24,Low,P06-6,P06-M2
+P06-8,P06,Build synthetic component 8,Task,In Progress,m05,2026-08-20,2026-08-27,8,4.0,Low,P06-7,P06-M2
+P06-9,P06,Verify synthetic component 9,Task,In Progress,m06,2026-08-25,2026-08-29,40,20.0,Low,P06-8,P06-M2
+P06-10,P06,Design synthetic component 10,Task,To Do,m07,2026-08-30,2026-09-06,32,32,Low,P06-9,P06-M2
+P06-11,P06,Build synthetic component 11,Task,To Do,m08,2026-09-04,2026-09-08,24,24,Low,P06-10,P06-M2
+P06-12,P06,Verify synthetic component 12,Task,To Do,m01,2026-09-09,2026-09-16,24,24,Low,P06-11,P06-M2
+P06-13,P06,Design synthetic component 13,Task,To Do,m02,2026-09-14,2026-09-17,32,32,Low,P06-12,P06-M2
+P07-1,P07,Design synthetic component 1,Task,Done,m07,2026-07-18,2026-07-22,8,0,High,,P07-M1
+P07-2,P07,Build synthetic component 2,Task,Done,m08,2026-07-23,2026-07-30,40,0,High,P07-1,P07-M1
+P07-3,P07,Verify synthetic component 3,Task,Done,m01,2026-07-28,2026-08-01,40,0,High,P07-2,P07-M1
+P07-4,P07,Design synthetic component 4,Task,Done,m02,2026-08-02,2026-08-11,24,0,High,P07-3,P07-M1
+P07-5,P07,Build synthetic component 5,Task,In Progress,m03,2026-08-07,2026-08-14,16,8.0,High,P07-4,P07-M1
+P07-6,P07,Verify synthetic component 6,Task,In Progress,m04,2026-08-12,2026-08-16,8,4.0,High,P07-5,P07-M1
+P07-7,P07,Design synthetic component 7,Task,Blocked,m05,2026-08-17,2026-08-20,16,16,High,P07-6,P07-M2
+P07-8,P07,Build synthetic component 8,Task,In Progress,m06,2026-08-22,2026-08-29,8,4.0,High,P07-7,P07-M2
+P07-9,P07,Verify synthetic component 9,Task,In Progress,m07,2026-08-27,2026-08-30,24,12.0,High,P07-8,P07-M2
+P07-10,P07,Design synthetic component 10,Task,To Do,m08,2026-09-01,2026-09-05,32,32,High,P07-9,P07-M2
+P07-11,P07,Build synthetic component 11,Task,To Do,m01,2026-09-06,2026-09-15,16,16,High,P07-10,P07-M2
+P07-12,P07,Verify synthetic component 12,Task,To Do,m02,2026-09-11,2026-09-14,40,40,High,P07-11,P07-M2
+P08-1,P08,Design synthetic component 1,Task,Done,m08,2026-07-20,2026-07-24,8,0,Medium,,P08-M1
+P08-2,P08,Build synthetic component 2,Task,Done,m01,2026-07-25,2026-07-28,8,0,Medium,P08-1,P08-M1
+P08-3,P08,Verify synthetic component 3,Task,Done,m02,2026-07-30,2026-08-08,24,0,Medium,P08-2,P08-M1
+P08-4,P08,Design synthetic component 4,Task,Done,m03,2026-08-04,2026-08-07,32,0,Medium,P08-3,P08-M1
+P08-5,P08,Build synthetic component 5,Task,In Progress,m04,2026-08-09,2026-08-16,40,20.0,Medium,P08-4,P08-M1
+P08-6,P08,Verify synthetic component 6,Task,In Progress,m05,2026-08-14,2026-08-18,40,20.0,Medium,P08-5,P08-M1
+P08-7,P08,Design synthetic component 7,Task,Blocked,m06,2026-08-19,2026-08-22,8,8,Medium,P08-6,P08-M2
+P08-8,P08,Build synthetic component 8,Task,In Progress,m07,2026-08-24,2026-08-28,16,8.0,Medium,P08-7,P08-M2
+P08-9,P08,Verify synthetic component 9,Task,In Progress,m08,2026-08-29,2026-09-07,32,16.0,Medium,P08-8,P08-M2
+P08-10,P08,Design synthetic component 10,Task,To Do,m01,2026-09-03,2026-09-12,8,8,Medium,P08-9,P08-M2
+P08-11,P08,Build synthetic component 11,Task,To Do,m02,2026-09-08,2026-09-11,24,24,Medium,P08-10,P08-M2
+P08-12,P08,Verify synthetic component 12,Task,To Do,m03,2026-09-13,2026-09-17,40,40,Medium,P08-11,P08-M2
+P09-1,P09,Design synthetic component 1,Task,Done,m01,2026-07-22,2026-07-25,32,0,Low,,P09-M1
+P09-2,P09,Build synthetic component 2,Task,Done,m02,2026-07-27,2026-08-05,40,0,Low,P09-1,P09-M1
+P09-3,P09,Verify synthetic component 3,Task,Done,m03,2026-08-01,2026-08-05,8,0,Low,P09-2,P09-M1
+P09-4,P09,Design synthetic component 4,Task,Done,m04,2026-08-06,2026-08-10,32,0,Low,P09-3,P09-M1
+P09-5,P09,Build synthetic component 5,Task,In Progress,m05,2026-08-11,2026-08-20,8,4.0,Low,P09-4,P09-M1
+P09-6,P09,Verify synthetic component 6,Task,In Progress,m06,2026-08-16,2026-08-23,24,12.0,Low,P09-5,P09-M1
+P09-7,P09,Design synthetic component 7,Task,Blocked,m07,2026-08-21,2026-08-24,24,24,Low,P09-6,P09-M2
+P09-8,P09,Build synthetic component 8,Task,In Progress,m08,2026-08-26,2026-09-04,24,12.0,Low,P09-7,P09-M2
+P09-9,P09,Verify synthetic component 9,Task,In Progress,m01,2026-08-31,2026-09-04,16,8.0,Low,P09-8,P09-M2
+P09-10,P09,Design synthetic component 10,Task,To Do,m02,2026-09-05,2026-09-08,40,40,Low,P09-9,P09-M2
+P09-11,P09,Build synthetic component 11,Task,To Do,m03,2026-09-10,2026-09-14,16,16,Low,P09-10,P09-M2
+P09-12,P09,Verify synthetic component 12,Task,To Do,m04,2026-09-15,2026-09-24,40,40,Low,P09-11,P09-M2
+P10-1,P10,Design synthetic component 1,Task,Done,m02,2026-07-24,2026-08-02,40,0,High,,P10-M1
+P10-2,P10,Build synthetic component 2,Task,Done,m03,2026-07-29,2026-08-05,8,0,High,P10-1,P10-M1
+P10-3,P10,Verify synthetic component 3,Task,Done,m04,2026-08-03,2026-08-12,40,0,High,P10-2,P10-M1
+P10-4,P10,Design synthetic component 4,Task,Done,m05,2026-08-08,2026-08-17,32,0,High,P10-3,P10-M1
+P10-5,P10,Build synthetic component 5,Task,In Progress,m06,2026-08-13,2026-08-16,40,20.0,High,P10-4,P10-M1
+P10-6,P10,Verify synthetic component 6,Task,In Progress,m07,2026-08-18,2026-08-27,32,16.0,High,P10-5,P10-M1
+P10-7,P10,Design synthetic component 7,Task,Blocked,m08,2026-08-23,2026-08-27,40,40,High,P10-6,P10-M2
+P10-8,P10,Build synthetic component 8,Task,In Progress,m01,2026-08-28,2026-09-06,16,8.0,High,P10-7,P10-M2
+P10-9,P10,Verify synthetic component 9,Task,In Progress,m02,2026-09-02,2026-09-11,32,16.0,High,P10-8,P10-M2
+P10-10,P10,Design synthetic component 10,Task,To Do,m03,2026-09-07,2026-09-10,16,16,High,P10-9,P10-M2
+P10-11,P10,Build synthetic component 11,Task,To Do,m04,2026-09-12,2026-09-21,16,16,High,P10-10,P10-M2
+P10-12,P10,Verify synthetic component 12,Task,To Do,m05,2026-09-17,2026-09-24,40,40,High,P10-11,P10-M2
+P11-1,P11,Design synthetic component 1,Task,Done,m03,2026-07-26,2026-07-30,24,0,Medium,,P11-M1
+P11-2,P11,Build synthetic component 2,Task,Done,m04,2026-07-31,2026-08-04,32,0,Medium,P11-1,P11-M1
+P11-3,P11,Verify synthetic component 3,Task,Done,m05,2026-08-05,2026-08-12,24,0,Medium,P11-2,P11-M1
+P11-4,P11,Design synthetic component 4,Task,Done,m06,2026-08-10,2026-08-13,8,0,Medium,P11-3,P11-M1
+P11-5,P11,Build synthetic component 5,Task,In Progress,m07,2026-08-15,2026-08-18,32,16.0,Medium,P11-4,P11-M1
+P11-6,P11,Verify synthetic component 6,Task,In Progress,m08,2026-08-20,2026-08-24,40,20.0,Medium,P11-5,P11-M1
+P11-7,P11,Design synthetic component 7,Task,Blocked,m01,2026-08-25,2026-09-01,16,16,Medium,P11-6,P11-M2
+P11-8,P11,Build synthetic component 8,Task,In Progress,m02,2026-08-30,2026-09-08,40,20.0,Medium,P11-7,P11-M2
+P11-9,P11,Verify synthetic component 9,Task,In Progress,m03,2026-09-04,2026-09-07,24,12.0,Medium,P11-8,P11-M2
+P11-10,P11,Design synthetic component 10,Task,To Do,m04,2026-09-09,2026-09-18,8,8,Medium,P11-9,P11-M2
+P11-11,P11,Build synthetic component 11,Task,To Do,m05,2026-09-14,2026-09-17,32,32,Medium,P11-10,P11-M2
+P11-12,P11,Verify synthetic component 12,Task,To Do,m06,2026-09-19,2026-09-26,32,32,Medium,P11-11,P11-M2
+P12-1,P12,Design synthetic component 1,Task,Done,m04,2026-07-28,2026-08-04,8,0,Low,,P12-M1
+P12-2,P12,Build synthetic component 2,Task,Done,m05,2026-08-02,2026-08-09,32,0,Low,P12-1,P12-M1
+P12-3,P12,Verify synthetic component 3,Task,Done,m06,2026-08-07,2026-08-10,40,0,Low,P12-2,P12-M1
+P12-4,P12,Design synthetic component 4,Task,Done,m07,2026-08-12,2026-08-19,16,0,Low,P12-3,P12-M1
+P12-5,P12,Build synthetic component 5,Task,In Progress,m08,2026-08-17,2026-08-21,16,8.0,Low,P12-4,P12-M1
+P12-6,P12,Verify synthetic component 6,Task,In Progress,m01,2026-08-22,2026-08-25,24,12.0,Low,P12-5,P12-M1
+P12-7,P12,Design synthetic component 7,Task,Blocked,m02,2026-08-27,2026-08-30,40,40,Low,P12-6,P12-M2
+P12-8,P12,Build synthetic component 8,Task,In Progress,m03,2026-09-01,2026-09-08,8,4.0,Low,P12-7,P12-M2
+P12-9,P12,Verify synthetic component 9,Task,In Progress,m04,2026-09-06,2026-09-13,24,12.0,Low,P12-8,P12-M2
+P12-10,P12,Design synthetic component 10,Task,To Do,m05,2026-09-11,2026-09-18,24,24,Low,P12-9,P12-M2
+P12-11,P12,Build synthetic component 11,Task,To Do,m06,2026-09-16,2026-09-20,32,32,Low,P12-10,P12-M2
+P12-12,P12,Verify synthetic component 12,Task,To Do,m07,2026-09-21,2026-09-25,32,32,Low,P12-11,P12-M2

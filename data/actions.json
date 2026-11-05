@@ -1,0 +1,110 @@
+[
+  {
+    "Action key": "A01",
+    "Project key": "P01",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m01",
+    "Due date": "2026-09-18",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A02",
+    "Project key": "P02",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m02",
+    "Due date": "2026-09-20",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A03",
+    "Project key": "P03",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m03",
+    "Due date": "2026-09-22",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A04",
+    "Project key": "P04",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m04",
+    "Due date": "2026-09-24",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A05",
+    "Project key": "P05",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m05",
+    "Due date": "2026-09-26",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A06",
+    "Project key": "P06",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m06",
+    "Due date": "2026-09-28",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A07",
+    "Project key": "P07",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m07",
+    "Due date": "2026-09-30",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A08",
+    "Project key": "P08",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m08",
+    "Due date": "2026-10-02",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A09",
+    "Project key": "P09",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m01",
+    "Due date": "2026-10-04",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A10",
+    "Project key": "P10",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m02",
+    "Due date": "2026-10-06",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A11",
+    "Project key": "P11",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m03",
+    "Due date": "2026-10-08",
+    "Status": "Done",
+    "Source": "synthetic planning export"
+  },
+  {
+    "Action key": "A12",
+    "Project key": "P12",
+    "Summary": "Agree the next acceptance decision",
+    "Owner": "m04",
+    "Due date": "2026-10-10",
+    "Status": "Open",
+    "Source": "synthetic planning export"
+  }
+]

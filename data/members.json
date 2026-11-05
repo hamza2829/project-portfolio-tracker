@@ -1,0 +1,42 @@
+[
+  {
+    "Account id": "m01",
+    "Display name": "Mira Fenn",
+    "Weekly capacity hours": "32"
+  },
+  {
+    "Account id": "m02",
+    "Display name": "Nolan Voss",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m03",
+    "Display name": "Tessa Lark",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m04",
+    "Display name": "Arin Vale",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m05",
+    "Display name": "Lina Kest",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m06",
+    "Display name": "Oren Pike",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m07",
+    "Display name": "Sora Wren",
+    "Weekly capacity hours": "40"
+  },
+  {
+    "Account id": "m08",
+    "Display name": "Elian Moss",
+    "Weekly capacity hours": "40"
+  }
+]

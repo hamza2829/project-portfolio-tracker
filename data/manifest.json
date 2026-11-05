@@ -1,0 +1,14 @@
+{
+  "synthetic_only": true,
+  "schema_version": 1,
+  "counts": {
+    "members": 8,
+    "projects": 12,
+    "issues": 150,
+    "milestones": 24,
+    "risks": 18,
+    "updates": 144,
+    "workload": 153,
+    "actions": 12
+  }
+}

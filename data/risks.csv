@@ -1,0 +1,19 @@
+Risk key,Project key,Summary,Owner,Due date,Probability,Impact,Status
+R01-1,P01,Synthetic acceptance benchmark may be missed,m01,2026-09-14,0.3,2,Open
+R02-1,P02,Synthetic acceptance benchmark may be missed,m02,2026-09-17,0.6,3,Open
+R03-1,P03,Synthetic acceptance benchmark may be missed,m03,2026-09-20,0.8,4,Open
+R04-1,P04,Synthetic acceptance benchmark may be missed,m04,2026-09-23,0.3,5,Open
+R05-1,P05,Synthetic acceptance benchmark may be missed,m05,2026-09-26,0.6,2,Open
+R06-1,P06,Synthetic acceptance benchmark may be missed,m06,2026-09-29,0.8,3,Open
+R07-1,P07,Synthetic acceptance benchmark may be missed,m07,2026-10-02,0.3,4,Open
+R07-2,P07,Migration rehearsal may need another iteration,m07,2026-10-02,0.3,4,Open
+R08-1,P08,Synthetic acceptance benchmark may be missed,m08,2026-10-05,0.6,5,Open
+R08-2,P08,Migration rehearsal may need another iteration,m08,2026-10-05,0.6,5,Open
+R09-1,P09,Synthetic acceptance benchmark may be missed,m01,2026-10-08,0.8,2,Open
+R09-2,P09,Migration rehearsal may need another iteration,m01,2026-10-08,0.8,2,Open
+R10-1,P10,Synthetic acceptance benchmark may be missed,m02,2026-10-11,0.3,3,Open
+R10-2,P10,Migration rehearsal may need another iteration,m02,2026-10-11,0.3,3,Open
+R11-1,P11,Synthetic acceptance benchmark may be missed,m03,2026-10-14,0.6,4,Open
+R11-2,P11,Migration rehearsal may need another iteration,m03,2026-10-14,0.6,4,Open
+R12-1,P12,Synthetic acceptance benchmark may be missed,m04,2026-10-17,0.8,5,Done
+R12-2,P12,Migration rehearsal may need another iteration,m04,2026-10-17,0.8,5,Done

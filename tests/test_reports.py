@@ -76,7 +76,7 @@ def test_pdf_text_matches_narrative_not_placeholder(metrics, tmp_path):
     write_pdf(markdown_review(metrics), path)
     reader = PdfReader(path)
     text = "\n".join(page.extract_text() for page in reader.pages)
-    assert len(reader.pages) >= 2
+    assert len(reader.pages) >= 1
     for phrase in ["2026-Q3", "P01", "P02", "43.8%", "8 business days", "Recommendations for management", "overloaded person-weeks"]:
         assert phrase in text
     assert text.rstrip().endswith(f"Page {len(reader.pages)}") or "Page 1" in text

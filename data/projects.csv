@@ -1,0 +1,13 @@
+Project key,Project name,Project lead,Start date,Due date,Priority,Goal
+P01,Atlas route planner,m01,2026-07-06,2026-09-14,High,Deliver the fictional atlas route planner with documented acceptance checks.
+P02,Birch data catalog,m02,2026-07-08,2026-09-18,Medium,Deliver the fictional birch data catalog with documented acceptance checks.
+P03,Cedar quality monitor,m03,2026-07-10,2026-09-22,Low,Deliver the fictional cedar quality monitor with documented acceptance checks.
+P04,Delta dispatch desk,m04,2026-07-12,2026-09-26,High,Deliver the fictional delta dispatch desk with documented acceptance checks.
+P05,Ember access review,m05,2026-07-14,2026-09-30,Medium,Deliver the fictional ember access review with documented acceptance checks.
+P06,Fjord forecast engine,m06,2026-07-16,2026-10-04,Low,Deliver the fictional fjord forecast engine with documented acceptance checks.
+P07,Grove workflow kit,m07,2026-07-18,2026-10-08,High,Deliver the fictional grove workflow kit with documented acceptance checks.
+P08,Harbor migration,m08,2026-07-20,2026-10-12,Medium,Deliver the fictional harbor migration with documented acceptance checks.
+P09,Indigo test platform,m01,2026-07-22,2026-10-16,Low,Deliver the fictional indigo test platform with documented acceptance checks.
+P10,Juniper insight hub,m02,2026-07-24,2026-10-20,High,Deliver the fictional juniper insight hub with documented acceptance checks.
+P11,Kestrel event store,m03,2026-07-26,2026-10-24,Medium,Deliver the fictional kestrel event store with documented acceptance checks.
+P12,Lumen service portal,m04,2026-07-28,2026-10-28,Low,Deliver the fictional lumen service portal with documented acceptance checks.

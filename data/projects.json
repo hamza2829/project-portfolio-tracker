@@ -1,0 +1,110 @@
+[
+  {
+    "Project key": "P01",
+    "Project name": "Atlas route planner",
+    "Project lead": "m01",
+    "Start date": "2026-07-06",
+    "Due date": "2026-09-14",
+    "Priority": "High",
+    "Goal": "Deliver the fictional atlas route planner with documented acceptance checks."
+  },
+  {
+    "Project key": "P02",
+    "Project name": "Birch data catalog",
+    "Project lead": "m02",
+    "Start date": "2026-07-08",
+    "Due date": "2026-09-18",
+    "Priority": "Medium",
+    "Goal": "Deliver the fictional birch data catalog with documented acceptance checks."
+  },
+  {
+    "Project key": "P03",
+    "Project name": "Cedar quality monitor",
+    "Project lead": "m03",
+    "Start date": "2026-07-10",
+    "Due date": "2026-09-22",
+    "Priority": "Low",
+    "Goal": "Deliver the fictional cedar quality monitor with documented acceptance checks."
+  },
+  {
+    "Project key": "P04",
+    "Project name": "Delta dispatch desk",
+    "Project lead": "m04",
+    "Start date": "2026-07-12",
+    "Due date": "2026-09-26",
+    "Priority": "High",
+    "Goal": "Deliver the fictional delta dispatch desk with documented acceptance checks."
+  },
+  {
+    "Project key": "P05",
+    "Project name": "Ember access review",
+    "Project lead": "m05",
+    "Start date": "2026-07-14",
+    "Due date": "2026-09-30",
+    "Priority": "Medium",
+    "Goal": "Deliver the fictional ember access review with documented acceptance checks."
+  },
+  {
+    "Project key": "P06",
+    "Project name": "Fjord forecast engine",
+    "Project lead": "m06",
+    "Start date": "2026-07-16",
+    "Due date": "2026-10-04",
+    "Priority": "Low",
+    "Goal": "Deliver the fictional fjord forecast engine with documented acceptance checks."
+  },
+  {
+    "Project key": "P07",
+    "Project name": "Grove workflow kit",
+    "Project lead": "m07",
+    "Start date": "2026-07-18",
+    "Due date": "2026-10-08",
+    "Priority": "High",
+    "Goal": "Deliver the fictional grove workflow kit with documented acceptance checks."
+  },
+  {
+    "Project key": "P08",
+    "Project name": "Harbor migration",
+    "Project lead": "m08",
+    "Start date": "2026-07-20",
+    "Due date": "2026-10-12",
+    "Priority": "Medium",
+    "Goal": "Deliver the fictional harbor migration with documented acceptance checks."
+  },
+  {
+    "Project key": "P09",
+    "Project name": "Indigo test platform",
+    "Project lead": "m01",
+    "Start date": "2026-07-22",
+    "Due date": "2026-10-16",
+    "Priority": "Low",
+    "Goal": "Deliver the fictional indigo test platform with documented acceptance checks."
+  },
+  {
+    "Project key": "P10",
+    "Project name": "Juniper insight hub",
+    "Project lead": "m02",
+    "Start date": "2026-07-24",
+    "Due date": "2026-10-20",
+    "Priority": "High",
+    "Goal": "Deliver the fictional juniper insight hub with documented acceptance checks."
+  },
+  {
+    "Project key": "P11",
+    "Project name": "Kestrel event store",
+    "Project lead": "m03",
+    "Start date": "2026-07-26",
+    "Due date": "2026-10-24",
+    "Priority": "Medium",
+    "Goal": "Deliver the fictional kestrel event store with documented acceptance checks."
+  },
+  {
+    "Project key": "P12",
+    "Project name": "Lumen service portal",
+    "Project lead": "m04",
+    "Start date": "2026-07-28",
+    "Due date": "2026-10-28",
+    "Priority": "Low",
+    "Goal": "Deliver the fictional lumen service portal with documented acceptance checks."
+  }
+]

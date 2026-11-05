@@ -1,0 +1,182 @@
+[
+  {
+    "Risk key": "R01-1",
+    "Project key": "P01",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m01",
+    "Due date": "2026-09-14",
+    "Probability": "0.3",
+    "Impact": "2",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R02-1",
+    "Project key": "P02",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m02",
+    "Due date": "2026-09-17",
+    "Probability": "0.6",
+    "Impact": "3",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R03-1",
+    "Project key": "P03",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m03",
+    "Due date": "2026-09-20",
+    "Probability": "0.8",
+    "Impact": "4",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R04-1",
+    "Project key": "P04",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m04",
+    "Due date": "2026-09-23",
+    "Probability": "0.3",
+    "Impact": "5",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R05-1",
+    "Project key": "P05",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m05",
+    "Due date": "2026-09-26",
+    "Probability": "0.6",
+    "Impact": "2",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R06-1",
+    "Project key": "P06",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m06",
+    "Due date": "2026-09-29",
+    "Probability": "0.8",
+    "Impact": "3",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R07-1",
+    "Project key": "P07",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m07",
+    "Due date": "2026-10-02",
+    "Probability": "0.3",
+    "Impact": "4",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R07-2",
+    "Project key": "P07",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m07",
+    "Due date": "2026-10-02",
+    "Probability": "0.3",
+    "Impact": "4",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R08-1",
+    "Project key": "P08",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m08",
+    "Due date": "2026-10-05",
+    "Probability": "0.6",
+    "Impact": "5",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R08-2",
+    "Project key": "P08",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m08",
+    "Due date": "2026-10-05",
+    "Probability": "0.6",
+    "Impact": "5",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R09-1",
+    "Project key": "P09",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m01",
+    "Due date": "2026-10-08",
+    "Probability": "0.8",
+    "Impact": "2",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R09-2",
+    "Project key": "P09",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m01",
+    "Due date": "2026-10-08",
+    "Probability": "0.8",
+    "Impact": "2",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R10-1",
+    "Project key": "P10",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m02",
+    "Due date": "2026-10-11",
+    "Probability": "0.3",
+    "Impact": "3",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R10-2",
+    "Project key": "P10",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m02",
+    "Due date": "2026-10-11",
+    "Probability": "0.3",
+    "Impact": "3",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R11-1",
+    "Project key": "P11",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m03",
+    "Due date": "2026-10-14",
+    "Probability": "0.6",
+    "Impact": "4",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R11-2",
+    "Project key": "P11",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m03",
+    "Due date": "2026-10-14",
+    "Probability": "0.6",
+    "Impact": "4",
+    "Status": "Open"
+  },
+  {
+    "Risk key": "R12-1",
+    "Project key": "P12",
+    "Summary": "Synthetic acceptance benchmark may be missed",
+    "Owner": "m04",
+    "Due date": "2026-10-17",
+    "Probability": "0.8",
+    "Impact": "5",
+    "Status": "Done"
+  },
+  {
+    "Risk key": "R12-2",
+    "Project key": "P12",
+    "Summary": "Migration rehearsal may need another iteration",
+    "Owner": "m04",
+    "Due date": "2026-10-17",
+    "Probability": "0.8",
+    "Impact": "5",
+    "Status": "Done"
+  }
+]

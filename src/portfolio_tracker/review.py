@@ -58,20 +58,28 @@ def write_pdf(markdown, path):
     styles.add(ParagraphStyle("LabBody", fontName="LabSans", fontSize=9, leading=14, spaceAfter=7, alignment=TA_LEFT))
     styles.add(ParagraphStyle("LabTitle", fontName="LabSansBold", fontSize=21, leading=26, textColor=colors.HexColor("#172a46"), spaceAfter=16))
     styles.add(ParagraphStyle("LabHeading", fontName="LabSansBold", fontSize=13, leading=17, textColor=colors.HexColor("#172a46"), spaceBefore=14, spaceAfter=8, keepWithNext=True))
-    styles.add(ParagraphStyle("LabCell", fontName="LabSans", fontSize=7, leading=10))
+    styles.add(ParagraphStyle("LabCell", fontName="LabSans", fontSize=8, leading=11))
     story, table_rows = [], []
+    recommendation_start = None
 
     def flush_table():
         if not table_rows:
             return
         count = len(table_rows[0])
-        # Equal columns wrap long text; all rows can split across page boundaries.
+        # Give descriptions room, while retaining useful date and numeric columns.
+        weights = {
+            "Project and plan": [2.3, 0.7, 0.8, 0.8, 0.8, 1],
+            "Person": [1.6, 1.1, 0.85, 0.75, 0.85, 1.65],
+            "Milestone": [1, 0.7, 1.2, 1.2, 0.7],
+            "Risk": [0.8, 0.7, 0.7, 1.05, 0.7, 2.4],
+            "Overdue action": [1, 0.75, 0.7, 1.1, 2.6],
+        }.get(table_rows[0][0], [1] * count)
         wrapped = [[Paragraph(escape(cell), styles["LabCell"]) for cell in row] for row in table_rows]
-        table = Table(wrapped, colWidths=[(A4[0] - 80) / count] * count, repeatRows=1, hAlign="LEFT")
+        table = Table(wrapped, colWidths=[(A4[0] - 80) * weight / sum(weights) for weight in weights], repeatRows=1, hAlign="LEFT")
         table.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#dfeaf5")),
             ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f4f7fb")]),
             ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 5),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 5), ("TOPPADDING", (0, 0), (-1, -1), 6), ("BOTTOMPADDING", (0, 0), (-1, -1), 6)]))
+            ("RIGHTPADDING", (0, 0), (-1, -1), 5), ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5)]))
         story.append(table)
         story.append(Spacer(1, 8))
         table_rows.clear()
@@ -85,6 +93,8 @@ def write_pdf(markdown, path):
         flush_table()
         if not line.strip():
             continue
+        if line == "## Recommendations for management":
+            recommendation_start = len(story)
         style = "LabTitle" if line.startswith("# ") else "LabHeading" if line.startswith(("## ", "### ")) else "LabBody"
         text = line.removeprefix("### ").removeprefix("## ").removeprefix("# ")
         if text.startswith("- "):
@@ -92,6 +102,8 @@ def write_pdf(markdown, path):
         else:
             story.append(Paragraph(escape(text), styles[style]))
     flush_table()
+    if recommendation_start is not None:
+        story[recommendation_start:] = [KeepTogether(story[recommendation_start:])]
 
     def footer(canvas, document):
         canvas.saveState()
