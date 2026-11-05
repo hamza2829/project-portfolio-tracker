@@ -10,7 +10,7 @@ defaults:
     shell: bash
 jobs:
   portfolio:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -32,8 +32,14 @@ jobs:
       - name: Prepare native workbook rendering
         timeout-minutes: 10
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends libreoffice-calc > artifacts/libreoffice-install.log 2>&1
+          if [[ -f /etc/apt/apt-mirrors.txt ]]; then
+            printf 'https://archive.ubuntu.com/ubuntu\n' | sudo tee /etc/apt/apt-mirrors.txt
+          fi
+          if [[ -f /etc/apt/apt-mirrors-security.txt ]]; then
+            printf 'https://security.ubuntu.com/ubuntu\n' | sudo tee /etc/apt/apt-mirrors-security.txt
+          fi
+          sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update 2>&1 | tee artifacts/apt-update.log
+          sudo env DEBIAN_FRONTEND=noninteractive apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends libreoffice-calc 2>&1 | tee artifacts/libreoffice-install.log
           libreoffice -env:UserInstallation=file:///tmp/portfolio-render --headless --convert-to pdf --outdir artifacts/previews artifacts/reports/portfolio.xlsx 2>&1 | tee artifacts/workbook-render.log
       - name: Browser screenshots and PDF visual checks
         run: |
