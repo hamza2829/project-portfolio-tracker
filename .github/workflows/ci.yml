@@ -20,7 +20,7 @@ jobs:
       - name: Install tools only on the runner
         run: |
           mkdir -p artifacts/reports artifacts/previews
-          python -m pip install -e '.[test,ci]'
+          python -m pip install -e '.[test,ci]' 2>&1 | tee artifacts/install.log
           python -m pip freeze > artifacts/dependencies.txt
       - name: Ruff
         run: ruff check src tests ci 2>&1 | tee artifacts/ruff.log
