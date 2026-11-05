@@ -6,7 +6,9 @@ All projects, people, risks and status updates are synthetic. There is no live J
 
 ## Dashboard
 
-The actual dashboard screenshot will be added from a completed CI run. CI captures the generated HTML in Chromium, including a mobile view, and uploads both images as artifacts. It never loads remote chart code or fonts.
+This is the actual HTML dashboard captured by Chromium in [CI run 42083627242](https://github.com/hamza2829/project-portfolio-tracker/actions/runs/42083627242). CI also captures a [mobile view](docs/dashboard-mobile.png). No remote chart code or fonts were loaded.
+
+![CI screenshot of the synthetic department portfolio dashboard](docs/dashboard.png)
 
 ## Data flow
 
@@ -103,11 +105,18 @@ Tests use small hand-made examples to check the eight-business-day critical path
 
 <!-- CI_METRICS_START -->
 | Metric | Measured in CI |
-| --- | --- |
-| Tests and line coverage | Awaiting a completed CI run |
+| --- | ---: |
+| pytest cases | 101 |
+| Line coverage | 99.86% (710 / 711 lines) |
+| Failures / skipped | 0 / 0 |
+| Projects / tasks / members | 12 / 150 / 8 |
+| Milestones / risks / weekly updates | 24 / 18 / 144 |
+| Weekly allocation records | 153 |
 <!-- CI_METRICS_END -->
 
-CI requires at least 40 pytest cases and at least 85 percent line coverage. The result table will use actual JUnit and coverage XML reports. Source counts or estimates are not presented as measured tests or coverage.
+Measured on 5 November 2026 in [CI run 42083627242](https://github.com/hamza2829/project-portfolio-tracker/actions/runs/42083627242), commit `934abb18b108491609573e4881ba1ad14d2189c9`. The table comes from actual JUnit, coverage XML and pipeline reports. The [measurement JSON](docs/ci-measurements.json), [pipeline proof](docs/pipeline-proof.json) and [visual proof](docs/visual-proof.json) are preserved from that run. CI enforces at least 40 pytest cases and 85 percent line coverage on every push.
+
+That run imported equal CSV and JSON snapshots, added one meeting action, and added zero duplicates on the repeated notes import. It generated a six-page review PDF and a native workbook render covering 19 pages. Chromium reported zero browser errors, zero external requests and no page overflow at the tested mobile width. The screenshots and PDF page previews were visually inspected. These are measurements of this synthetic run.
 
 On every push, GitHub Actions runs Ruff, pytest, the complete CLI pipeline on both export formats, repeated notes import, agenda creation and report generation. LibreOffice renders the actual workbook to PDF on the runner. Chromium captures desktop and mobile dashboard screenshots. PDF pages are rendered to PNG, and text is checked for page overflow. These checks supplement visual inspection; they do not establish universal Microsoft Excel compatibility or full accessibility compliance.
 

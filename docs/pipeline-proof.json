@@ -1,0 +1,17 @@
+{
+  "csv_json_equal": true,
+  "counts": {
+    "members": 8,
+    "projects": 12,
+    "issues": 150,
+    "milestones": 24,
+    "risks": 18,
+    "updates": 144,
+    "workload": 153,
+    "actions": 12
+  },
+  "notes_added": 1,
+  "notes_second_import_added": 0,
+  "actions_after_notes": 13,
+  "all_five_commands_passed": true
+}

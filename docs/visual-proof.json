@@ -1,0 +1,13 @@
+{
+  "browser_errors": [],
+  "external_requests": [],
+  "dashboard_project_rows": 12,
+  "svg_charts": 3,
+  "mobile_overflow": false,
+  "pdf_pages": {
+    "review": 6,
+    "workbook": 19
+  },
+  "workbook_native_rendered": true,
+  "all_pdf_text_within_page": true
+}

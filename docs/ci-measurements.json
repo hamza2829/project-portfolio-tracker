@@ -1,0 +1,24 @@
+{
+  "tests": 101,
+  "failures": 0,
+  "skipped": 0,
+  "line_coverage_percent": 99.86,
+  "covered_lines": 710,
+  "measured_lines": 711,
+  "synthetic_counts": {
+    "members": 8,
+    "projects": 12,
+    "issues": 150,
+    "milestones": 24,
+    "risks": 18,
+    "updates": 144,
+    "workload": 153,
+    "actions": 12
+  },
+  "pdf_pages": {
+    "review": 6,
+    "workbook": 19
+  },
+  "commit": "934abb18b108491609573e4881ba1ad14d2189c9",
+  "run_url": "https://github.com/hamza2829/project-portfolio-tracker/actions/runs/42083627242"
+}
